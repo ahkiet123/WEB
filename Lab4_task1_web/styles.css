@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease;
+}
+
+.button-container {
+    margin-top: 50px;
+}
+
+.color-button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color-button:hover {
+    transform: scale(1.1);
+}
+
+.color-button[data-color="red"] {
+    background-color: red;
+    color: white;
+}
+
+.color-button[data-color="green"] {
+    background-color: green;
+    color: white;
+}
+
+.color-button[data-color="blue"] {
+    background-color: blue;
+    color: white;
+}
+
+.color-button[data-color="yellow"] {
+    background-color: yellow;
+    color: black;
+}
+
+.color-button[data-color="purple"] {
+    background-color: purple;
+    color: white;
+}
